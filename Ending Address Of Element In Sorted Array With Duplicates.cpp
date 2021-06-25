@@ -15,7 +15,7 @@ int EndingIndex(int low,int high)
 	mid=(low+high)/2; //to get mid value
 	if(arr[mid]==v)
 	{
-		r=mid;
+		
 		if(mid>r)
 		{
 			r=mid; //To Get A Max Index Than Already Encountered Index With Required Value
