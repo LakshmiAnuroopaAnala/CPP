@@ -9,7 +9,7 @@ int StartingIndex(int low,int high)
 {
 	int r=n+1 ;
 	// USING BINARY SEARCH
-	while(low<high)
+	while(low<=high)
 	{
     //	cout<<r<<"\n";	
 	mid=(low+high)/2; //to get mid value
